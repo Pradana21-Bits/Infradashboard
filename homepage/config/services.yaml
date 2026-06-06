@@ -1,0 +1,29 @@
+- Jaringan & Router:
+    - MikroTik Router:
+        icon: mikrotik.png
+        href: https://mik.icenas.my.id
+        widget:
+          type: mikrotik
+          url: http://192.168.3.1
+          username: admin
+          password: 123qweas
+          interfaces: ether1
+
+- Server & Virtualisasi:
+    - Proxmox VE:
+        icon: proxmox.png
+        href: https://server.icenas.my.id
+        widget:
+          type: customapi
+          url: https://server.icenas.my.id/api2/json/nodes/server/status
+          method: GET
+          headers:
+            Authorization: PVEAPIToken=adminpve@pve!webmon=2df0bb9e-937c-4cb3-8724-486c36262b46
+          mappings:
+            - field: data.cpu
+              label: CPU Load
+              format: percent
+              factor: 100
+            - field: data.memory.used
+              label: RAM Used
+              format: bytes

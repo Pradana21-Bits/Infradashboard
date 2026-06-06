@@ -1,0 +1,12 @@
+title: Infrastructure Dashboard
+theme: dark
+layout:
+  Jaringan & Router:
+    style: rows
+    columns: 1
+  Server & Virtualisasi:
+    style: grid
+    columns: 1
+
+# --- TAMBAHKAN BARIS INI DI PALING BAWAH ---
+tlsInsecure: true

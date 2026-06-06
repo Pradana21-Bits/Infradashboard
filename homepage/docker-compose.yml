@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - "80:3000"
+    volumes:
+      - ./config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - HOMEPAGE_ALLOWED_HOSTS=mon.icenas.my.id,192.168.3.109
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+      - PVE_PASSWORD=890iopkl # <-- Tambahkan ini
+    restart: unless-stopped
