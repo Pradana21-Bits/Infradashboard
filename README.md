@@ -8,15 +8,13 @@ Sebuah dashboard monitoring infrastruktur modern dan minimalis yang dibangun men
 
 ### 1. Versi Stabil Final
 Tampilan dashboard yang sudah dioptimalkan sepenuhnya dan berfungsi normal, menampilkan statistik *real-time* dari router utama dan server hypervisor secara berdampingan:
-![Versi Stabil Final](##)
+![Versi Stabil Final](https://drop.icenas.my.id/file/Tampilan%20awal.png)
 
 ### 2. Progres Troubleshooting (Riwayat Error)
 Selama proses pengembangan dan integrasi API, dashboard ini sempat melewati beberapa fase perbaikan keamanan dan routing jaringan:
 
 * **Isolasi Masalah CORS & API Encodings:** Menyelesaikan masalah kendala `HTTP Error 401` (Unauthorized) saat pertama kali menghubungkan modul API Proxmox VE.
-    ![Error Koneksi API](##
 * **Pengamanan Validasi Host:** Menerapkan aturan parameter `HOMEPAGE_ALLOWED_HOSTS` yang tepat untuk mengamankan akses dashboard dari IP lokal maupun melalui Reverse Proxy eksternal.
-    ![Gagal Validasi Host](##)
 
 ---
 
