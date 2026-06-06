@@ -5,8 +5,8 @@
         widget:
           type: mikrotik
           url: http://192.168.3.1
-          username: admin
-          password: 123qweas
+          username: XXXXXXXX 
+          password: XXXXXXXX
           interfaces: ether1
 
 - Server & Virtualisasi:
@@ -18,7 +18,7 @@
           url: https://server.icenas.my.id/api2/json/nodes/server/status
           method: GET
           headers:
-            Authorization: PVEAPIToken=adminpve@pve!webmon=2df0bb9e-937c-4cb3-8724-486c36262b46
+            Authorization: PVEAPIToken=adminpve@pve!webmon=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXX
           mappings:
             - field: data.cpu
               label: CPU Load
