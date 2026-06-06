@@ -8,7 +8,6 @@ Sebuah dashboard monitoring infrastruktur modern dan minimalis yang dibangun men
 
 ### 1. Versi Stabil Final
 Tampilan dashboard yang sudah dioptimalkan sepenuhnya dan berfungsi normal, menampilkan statistik *real-time* dari router utama dan server hypervisor secara berdampingan:
-![Versi Stabil Final](https://drop.icenas.my.id/file/Tampilan%20awal.png)
 
 ### 2. Progres Troubleshooting (Riwayat Error)
 Selama proses pengembangan dan integrasi API, dashboard ini sempat melewati beberapa fase perbaikan keamanan dan routing jaringan:
