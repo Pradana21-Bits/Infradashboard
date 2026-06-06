@@ -1,3 +1,5 @@
+https://github.com/Pradana21-Bits/Infradashboard/blob/main/Tampilan%20awal.png
+
 # 🌐 Infradashboard
 
 Sebuah dashboard monitoring infrastruktur modern dan minimalis yang dibangun menggunakan platform [Homepage](https://gethomepage.dev/). Proyek ini berfungsi sebagai pusat kendali terpadu untuk memantau perangkat jaringan lokal, server virtualisasi (hypervisor), serta menyediakan akses cepat ke berbagai pintasan layanan (*bookmarks*) lab mandiri (*homelab*).
