@@ -1,4 +1,5 @@
-https://github.com/Pradana21-Bits/Infradashboard/blob/main/Tampilan%20awal.png
+<img width="1768" height="901" alt="Tampilan awal" src="https://github.com/user-attachments/assets/3a0ea2e1-7ed7-41b4-9d33-6d669e94045d" />
+
 
 # 🌐 Infradashboard
 
